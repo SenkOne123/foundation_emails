@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="foundation-emails.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800" rel="stylesheet">
+</head>
+
+<body>
+<!-- <style> -->
+<table style="background-image: url('https://vfxalert.com/img/email/background.png') !important;background: #F4F4F4;" class="body">
+    <tr>
+        <td class="float-center" align="center" valign="top">
+            <center>
+                <table style="background-image: url('https://vfxalert.com/img/email/background.png') !important;background: #F4F4F4;" class="container">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <table class="row">
+                                <tbody>
+                                <tr>
+                                    <th class="small-1 large-offset-1"></th>
+                                    <th class="small-8 large-6">
+                                        <!-- Upper margin -->
+                                        <table class="spacer">
+                                            <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:16px;line-height:20px;"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- first table with logo -->
+                                        <table class="container">
+                                            <tr>
+                                                <td>
+                                                    <table class="row">
+                                                        <tr>
+                                                            <th class="small-3 large-offset-3">
+                                                            </th>
+                                                            <th class="small-12 large-2">
+                                                                <table class="spacer">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td height="16px"
+                                                                            style="font-size:16px;line-height:10px;"></td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <center>
+                                                                    <img class="text-center"
+                                                                         src="https://vfxalert.com/img/email/Frame%20141.png"
+                                                                         alt="vfx logo"/>
+                                                                </center>
+                                                                <table class="spacer">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <td height="16px"
+                                                                            style="font-size:16px;line-height:20px;"></td>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </th>
+                                                            <th class="small-3 large-offset-3">
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <table class="spacer">
+                                            <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:16px;line-height:30px;"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- second table -->
+                                        <table class="container">
+                                            <tr>
+                                                <td>
+                                                    <table class="row">
+                                                        <tr>
+                                                            <th style="padding-left: 50px; padding-top: 26px;"
+                                                                class="small-8">
+                                                                <h1 class="text-left"><b>Hello!</b></h1>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table class="row">
+                                                        <tr>
+                                                            <th style="padding-left: 50px" class="small-8">
+                                                                <p style="width: 60%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 18px;line-height: 150%;">
+                                                                    Thanks for purchasing PRO license
+                                                                    <span style="color: #f3c364">{{app_name}}
+                                                                    </span>
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                    <table class="spacer">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="40px"
+                                                                style="font-size:16px;line-height:10px;"></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <table style="margin-left: 50px;" class="row">
+                                                        <tr>
+                                                            <th class="small-12 large-3">
+                                                                <p style="font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 16px">
+                                                                    Your tariff:
+                                                                </p>
+                                                            </th>
+                                                            <th class="small-6 large-1"></th>
+                                                            <th style="background: #F0F0F0;border-radius: 6px;"
+                                                                class="small-6 large-7">
+                                                                <span style="font-size: 18px;padding-left: 5px">{{product.title}}</span>
+                                                            </th>
+                                                            <th class="small-6 large-2"></th>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table style="margin-left: 50px;margin-top: 15px;" class="row">
+                                                        <tr>
+                                                            <th class="small-6 large-3">
+                                                                <p style="font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 16px">
+                                                                    Payment id:
+                                                                </p>
+                                                            </th>
+                                                            <th class="small-6 large-1"></th>
+                                                            <th style="background: #F0F0F0; border-radius: 6px"
+                                                                class="small-6 large-7">
+                                                                <span style="font-size: 18px;padding-left: 5px">{{order.ref_id}}</span>
+                                                            </th>
+                                                            <th class="small-6 large-2"></th>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table style="margin-left: 50px;margin-top: 15px;" class="row">
+                                                        <tr>
+                                                            <th class="small-6 large-3">
+                                                                <p style="font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 16px">
+                                                                    License key:
+                                                                </p>
+                                                            </th>
+                                                            <th class="small-3 large-1"></th>
+                                                            <th style="background: #F0F0F0; border-radius: 6px"
+                                                                class="small-6 large-7">
+                                                                <span style="font-size: 18px;padding-left: 5px">{{user.lkey}}</span>
+                                                            </th>
+                                                            <th class="small-6 large-2"></th>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table class="spacer">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="40px"
+                                                                style="font-size:16px;line-height:10px;"></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <table style="margin-left: 50px" class="row">
+                                                        <tr>
+                                                            <th class="small-6 large-6">
+                                                                <p style="font-family: Montserrat;font-size: 12px;line-height: 20px;color: #B6B6B6;max-width: 400px">
+                                                                    * Reload the app. Your account license key (user name) is changed automatically
+                                                                    and is located in your personal account https://vfxalert.com/settings
+                                                                </p>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+
+                                                    <table class="spacer">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td height="30px"
+                                                                style="font-size:16px;line-height:10px;"></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- gap between tables -->
+                                        <table class="spacer">
+                                            <tbody>
+                                            <tr>
+                                                <td height="16px" style="font-size:16px;line-height:20px;"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <!-- third table -->
+                                        <table class="container">
+                                            <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="row">
+                                                        <tr>
+                                                            <th style="padding-top: 20px; font-family: Montserrat,sans-serif; font-size: 18px">
+                                                                <center>
+                                                                    Follow Us.
+                                                                </center>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                    <center>
+                                                        <table class="menu" align="center"
+                                                               style="margin-top: 10px; margin-bottom: 10px"
+                                                               class="row">
+                                                            <tr>
+                                                                <th style="max-width: 25px"
+                                                                    class="small-12 large-1 menu-item float-center">
+                                                                    <a href="{{link_facebook}}"><img
+                                                                            class="float-center" alt="facebook"
+                                                                            src="https://vfxalert.com/img/email/Vector.png"/></a>
+                                                                </th>
+                                                                <th style="max-width: 25px; padding-top: 15px;"
+                                                                    class="small-12 large-1 menu-item float-center">
+                                                                    <a href="{{link_twitter}}"><img class="float-center"
+                                                                                                    alt="twitter"
+                                                                                                    src="https://vfxalert.com/img/email/Path.png"/></a>
+                                                                </th>
+                                                                <th style="max-width: 25px; padding-top: 15px;"
+                                                                    class="small-12 large-1 menu-item float-center">
+                                                                    <a href="{{link_facebook}}"><img
+                                                                            class="float-center" alt="telegram"
+                                                                            src="https://vfxalert.com/img/email/Vector%20(1).png"/></a>
+                                                                </th>
+                                                                <th style="max-width: 25px"
+                                                                    class="small-12 large-1 menu-item float-center">
+                                                                    <a href="{{link_facebook}}"><img
+                                                                            class="float-center" alt="instagram"
+                                                                            src="https://vfxalert.com/img/email/Vector%20(2).png"/></a>
+                                                                </th>
+                                                            </tr>
+                                                        </table>
+                                                    </center>
+                                                    <table class="row">
+                                                        <tr>
+                                                            <th>
+                                                                <center>
+                                                                    <p style="max-width: 430px; text-align: center; font-size: 14px; font-family: Montserrat,sans-serif">
+                                                                        You received this message because you are a
+                                                                        registered user service name
+                                                                    </p>
+                                                                </center>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                    <table style='margin-bottom: 20px' class="row">
+                                                        <tr>
+                                                            <th>
+                                                                <center><a style="font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 120%;" href="#">Unsubscribe</a></center>
+                                                            </th>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <table class="spacer">
+                                            <tbody>
+                                            <tr>
+                                                <td height="15px" style="font-size:16px;line-height:15px;"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th class="small-2 large-offset-1"></th>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </center>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
